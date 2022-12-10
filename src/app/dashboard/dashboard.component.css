@@ -1,0 +1,16 @@
+.texto {
+    height: 100%;
+    text-align: center;
+    padding-top: 10%;
+    padding-bottom: 30%;
+}
+
+p {
+    color: white;
+    font-size: larger;
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}

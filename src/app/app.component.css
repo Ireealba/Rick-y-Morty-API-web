@@ -1,0 +1,61 @@
+main {
+    background-color: #1e1e1e;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.header {
+    background-color: #adff2f;
+    height: 110px;
+}
+
+.logo {
+    height: 100px;
+    display: inline-block;
+    margin-left: 37.2%;
+}
+
+.img1 {
+    height: 105px;
+    display: inline-block;
+}
+
+.footer {
+    height: 100px;
+    background-color: #79b220;
+}
+
+.img2 {
+    height: 100px;
+    vertical-align: middle;
+}
+
+.texto-footer {
+    margin-left: 45%;
+}
+
+.barra {
+    height: 50px;
+    background-color: #79b220;
+    font-size: large;
+}
+
+.enlace {
+    height: 100%;
+    width: 33.33%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.enlace:hover {
+    background-color: #adff2f;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}

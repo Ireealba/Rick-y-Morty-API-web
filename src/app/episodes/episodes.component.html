@@ -1,0 +1,13 @@
+<div class="article">
+    <article *ngFor="let episode of episodes">
+        <div class="card">
+
+            <div class="caracteristicas">
+                <h2>{{episode.name}}</h2>
+                <span>Fecha de emisión:    {{episode.air_date}}</span><br>
+                <span>Episodio:   {{episode.episode}}</span><br>
+            </div>
+        </div>
+
+    </article>
+</div>

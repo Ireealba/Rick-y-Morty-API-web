@@ -5,10 +5,20 @@ export class Character {
     species! : string;
     type! : string;
     gender! : string;
-    origin! : string[];
-    location! : string[];
+    origin! : Origin[];
+    location! : Location[];
     image! : string;
     episode! : string[];
     url! : string;
     created! : string;
 }
+
+export class Origin{
+    name! : string;
+    url! : string;
+}
+
+export class Location{
+    name! : string;
+}
+

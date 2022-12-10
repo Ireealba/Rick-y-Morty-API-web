@@ -1,14 +1,12 @@
 <div class="article">
     <article *ngFor="let character of characters">
-        <div class="card">
+        <div class="card" [routerLink]="['/rickandmorty/characters', character.id]">
             <div class="image-container">
                 <img src="{{character.image}}" alt="Personaje">
             </div>
             <div class="caracteristicas">
                 <h2>{{character.name}}</h2>
-                <span>Estado:    {{character.status}}</span><br>
-                <span>Especie:   {{character.species}}</span><br>
-                <span>Género:    {{character.gender}}</span>
+
             </div>
         </div>
 

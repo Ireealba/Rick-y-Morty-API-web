@@ -1,0 +1,29 @@
+.container {
+    padding: 2.5% 30% 23% 30%;
+}
+
+.container-container {
+    background-color: #2a2d2e;
+    padding: 0.5% 2.5% 2.5% 2%;
+    border-radius: 0.5%;
+}
+
+h1 {
+    text-align: center;
+    color: #adff2f;
+}
+
+span {
+    color: white;
+}
+
+.img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.caracteristicas {
+    display: inline-block;
+    margin-left: 2%;
+    font-size: large;
+}

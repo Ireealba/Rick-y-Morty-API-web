@@ -10,6 +10,9 @@ import { CharactersComponent } from './characters/characters.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LocationsComponent } from './locations/locations.component';
 import { EpisodesComponent } from './episodes/episodes.component';
+import { CharacterComponent } from './characters/character/character.component';
+import { EpisodeComponent } from './episodes/episode/episode.component';
+import { LocationComponent } from './locations/location/location.component';
 
 const routes:Routes=[
   {path:'', redirectTo:'/rickandmorty', pathMatch:'full'},
@@ -17,6 +20,10 @@ const routes:Routes=[
   {path:'rickandmorty/characters', component:CharactersComponent},
   {path:'rickandmorty/locations', component:LocationsComponent},
   {path:'rickandmorty/episodes', component:EpisodesComponent},
+  {path:'rickandmorty/characters/:id', component:CharacterComponent},
+  {path:'rickandmorty/episodes/:id', component:EpisodeComponent},
+  {path:'rickandmorty/locations/:id',  component:LocationComponent}
+  
 ]
 
 @NgModule({
@@ -26,6 +33,9 @@ const routes:Routes=[
     DashboardComponent,
     LocationsComponent,
     EpisodesComponent,
+    CharacterComponent,
+    EpisodeComponent,
+    LocationComponent,
 
   ],
   imports: [
